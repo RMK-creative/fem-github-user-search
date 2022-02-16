@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 2rem;
+}
+
+.navbar__logo {
+  font-size: 1.625rem;
+  letter-spacing: -1px;
+  font-family: "Space Mono";
+  font-weight: 700;
+}
+
+.navbar__logo span {
+  letter-spacing: -5px;
+}
+
+.navbar__theme-switch__wrapper {
+  display: flex;
+}
+.navbar__theme-switch__wrapper img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar__theme-switch {
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
