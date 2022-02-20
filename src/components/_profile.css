@@ -2,7 +2,7 @@
   width: 100%;
   background-color: #1e2a47;
   border-radius: 10px;
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem;
 }
 
 .user__card-header {
@@ -38,7 +38,7 @@
 
 .user__stats {
   background-color: #141d2f;
-  padding: 1rem 1.5rem 1.5rem 0.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
@@ -78,3 +78,9 @@
   margin-right: 1rem;
   color: #fff;
 }
+
+.filter-white {
+  filter: brightness(0) invert(1);
+}
+
+/* filter: brightness(0) saturate(100%) invert(75%) sepia(0%) saturate(4504%) hue-rotate(327deg) brightness(88%) contrast(72%); */

@@ -32,4 +32,6 @@ select {
   background-color: #141d2f;
   color: #fff;
   padding: 1rem;
+  max-width: 45.5rem;
+  margin: 0 auto;
 }
