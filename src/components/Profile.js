@@ -28,7 +28,8 @@ const Profile = (props) => {
                   <h2 className="user__name">{userInfo.name}</h2>
                   <h3 className="user__handle">@{userInfo.username}</h3>
                   <h4 className="user__joined">
-                    Joined {<Moment format="DD MMM YYYY">userInfo.date</Moment>}
+                    Joined{" "}
+                    {<Moment format="DD MMM YYYY">{userInfo.date}</Moment>}
                   </h4>
                 </div>
               </header>
@@ -66,7 +67,7 @@ const Profile = (props) => {
                   <li>
                     <span style={{ marginLeft: "5px" }}>
                       <img
-                        className="user__contact-icon location-icon"
+                        className="user__contact-icon filter-white"
                         src={IconLocation}
                         alt=""
                       />
@@ -77,7 +78,7 @@ const Profile = (props) => {
                   <li>
                     <span>
                       <img
-                        className="user__contact-icon"
+                        className="user__contact-icon  filter-white"
                         src={IconBlog}
                         alt=""
                       />
@@ -87,7 +88,7 @@ const Profile = (props) => {
                   <li>
                     <span>
                       <img
-                        className="user__contact-icon"
+                        className="user__contact-icon  filter-white"
                         src={IconTwitter}
                         alt=""
                       />
@@ -97,7 +98,7 @@ const Profile = (props) => {
                   <li>
                     <span>
                       <img
-                        className="user__contact-icon"
+                        className="user__contact-icon  filter-white"
                         src={IconCompany}
                         alt=""
                       />
